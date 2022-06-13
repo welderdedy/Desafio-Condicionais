@@ -20,10 +20,10 @@ else{
 }
 
 let nome = "Welder";
-let sobreNome = "Silva"
+let sobreNome = "Silva";
 
 if(nome.charAt(0) === "E" || sobreNome.length >= 5  ){
-    console.log("Meu nome começa com W e meu sobrenome tem 5 letras");
+    console.log("Meu nome começa com w e meu sobrenome tem 5 letras");
 }
 
 else{
