@@ -19,22 +19,14 @@ else{
     console.log("Meu aniversario não é Dezembro");
 }
 
-let meuNome ="W";
+let nome = "Welder";
+let sobreNome = "Silva"
 
-if(meuNome == "W" || meuNome == "R" ){
-    console.log("Meu nome começa com W");
+if(nome.charAt(0) === "E" || sobreNome.length >= 5  ){
+    console.log("Meu nome começa com W e meu sobrenome tem 5 letras");
 }
 
 else{
-    console.log("Meu nome não começa com R");
+    console.log("Meu nome começa com R");
 }
 
-let sobreNome ="7 letras";
-
-if(sobreNome == "7 letras" || sobreNome == "6 letras" ){
-    console.log("Meu sobrenome tem 7 letras");
-}
-
-else{
-    console.log("Meu sobrenome não tem 6 letras");
-}
